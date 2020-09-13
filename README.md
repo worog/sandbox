@@ -12,3 +12,4 @@ Titanic.ipynb - Jupyter lab file containing common prediction of Titanic databas
 
 opracowanie_CV2.m - Matlab script for analysing C-V characteristic of electrical capacity near semiconductor junction.
 
+FootvsGrunt.py - Warcraft 3 fight results between Human Footmens and Orkish Grunts.
