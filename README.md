@@ -7,8 +7,7 @@ E2_Wojciech_Rogala.py &
 E3_Wojciech_Rogala.py - Scripts done for Parallel Programinng course:
 
 
-Sign_lang_recognition.ipynb
- - Jupyter lab file with explained code for sign language recognition.
+Sign_lang_recognition.ipynb - Jupyter lab file with explained code for sign language recognition.
 
 Titanic.ipynb - Jupyter lab file containing common prediction of Titanic database.
 
