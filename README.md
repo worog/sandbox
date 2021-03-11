@@ -1,4 +1,4 @@
-# Sandbox - contains scripts done for various prrojects and assignments.
+# Sandbox - contains scripts done for various projects and assignments.
 
 E1_Wojciech_Rogala.py & 
 E2_Wojciech_Rogala.py & 
