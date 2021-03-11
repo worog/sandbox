@@ -55,25 +55,25 @@ if __name__ == "__main__":
 
     for i in time:
     #  while Grunt!=0 || Foot!   
-    nF.append(i%dtF)
-    nG.append(i%dtG)
-    if i%dtF = 0:
-        loss=HpG[i-1]-AF[i-1]
-        HpG.append(loss)           
-        if HpG[i]%HpGrunt=0:
-            Grunt=-1
-        AG.append(GruntsAtt(Footred,Grunt,AttG)
-    elif i%dtG=0:
-        loss=HpF[i-1]-AG[i-1]
-        HpG.append(loss)           
-        if HpF[i]%HpFoot=0:
-            Foot=-1 
-        Ag.append(GruntsAtt(Footred,Grunt,AttG))        
-    else:
-        HpG.append(HpG[i-1])
-        HpF.append(HpF[i-1])
-        AG.append(AG[i-1])           
-        AF.append(AF[i-1])
-           
-    plt.plot(AF.time,'r.')
-    plt.show()
+        nF.append(i%dtF)
+        nG.append(i%dtG)
+        if i%dtF == 0:
+            loss=HpG[i-1]-AF[i-1]
+            HpG.append(loss)           
+            if HpG[i]%HpGrunt==0:
+                Grunt=-1
+            AG.append(GruntsAtt(Footred,Grunt,AttG))
+        elif i%dtG==0:
+            loss=HpF[i-1]-AG[i-1]
+            HpG.append(loss)           
+            if HpF[i]%HpFoot==0:
+                Foot=-1 
+            Ag.append(GruntsAtt(Footred,Grunt,AttG))        
+        else:
+            HpG.append(HpG[i-1])
+            HpF.append(HpF[i-1])
+            AG.append(AG[i-1])           
+            AF.append(AF[i-1])
+            
+        plt.plot(AF.time,'r.')
+        plt.show()
